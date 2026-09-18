@@ -1,0 +1,71 @@
+# Raw and processed EEG data
+*.mat
+*.npz
+*.npy
+prepared_data/
+data/
+datasets/
+
+# Model checkpoints
+*.keras
+*.h5
+*.weights.h5
+*.ckpt
+checkpoints/
+GANsTrainResults/
+
+# Experiment outputs
+results/
+generated_targets/
+locked_test/
+frozen_split_fits/
+structured_dbnet_training/
+interaction_dbnet_training/
+glass_gated_hybrid_training/
+
+# Copied external repositories
+vendor/
+GLASS_official/
+
+# Archives
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Credentials
+.env
+.env.*
+credentials.json
+token.json
+*.pem
+*.key
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Local EEG-GANet upstream working copies
+#
+# These directories are preserved locally for provenance and historical runs.
+# They are nested upstream repositories and must NOT be committed by this
+# outer reproducibility repository.
+#
+# Exact experiment-specific modifications are preserved under:
+# code/confirmatory_eeg_ganet_overrides/
+# ---------------------------------------------------------------------------
+/code/EEG-GANet/
+/code/EEG-GANet_S2/
+/code/EEG-GANet_S3/
+/code/EEG-GANet_S4/
+/code/EEG-GANet_S5/
+/code/EEG-GANet_S6/
+/code/EEG-GANet_S7/
+/code/EEG-GANet_S8/

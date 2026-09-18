@@ -1,0 +1,82 @@
+{
+  "upstream_repository": "https://github.com/xicheng105/EEG-GANet.git",
+  "upstream_commit": "6c555030498338b349c74ddc723bf52716a0fa89",
+  "common_modified_files": {
+    "GANs.py": {
+      "sha256": "fb0e17836eef23f5d46da53b47b40f796b4d8285dccd09299bd1ce16c2c78eff",
+      "source_subject_copy": "A01",
+      "equivalent_for_subjects": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ]
+    },
+    "github_PreProcess.py": {
+      "sha256": "4e4efbfedabf38304450d9a9bde9ea83c99fa8dc8338f7d2d1251113f94c8fb6",
+      "source_subject_copy": "A01",
+      "equivalent_for_subjects": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ]
+    },
+    "github_PreTraining.py": {
+      "sha256": "01593c7dcd43ec61072eb5f6244ffd9879273f05f6c5c216ed49027c472f476c",
+      "source_subject_copy": "A01",
+      "equivalent_for_subjects": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "A07",
+        "A08"
+      ]
+    }
+  },
+  "subject_specific_finetuning": {
+    "A01": {
+      "sha256": "2ee75cd13c96e83beb2ee065453a6cb3d3b74ded8119d7a26e0ba8d232495b75",
+      "source_directory": "code/EEG-GANet"
+    },
+    "A02": {
+      "sha256": "c7b34aa6152dfe768fe4b9895984d7d3f0aae52846dbd6f007d5f5f71dbcd579",
+      "source_directory": "code/EEG-GANet_S2"
+    },
+    "A03": {
+      "sha256": "18deef00b5b74e96d9f953d0deb4f4f4bf991788f834248835e4f80b7263883a",
+      "source_directory": "code/EEG-GANet_S3"
+    },
+    "A04": {
+      "sha256": "d2620829aec2cc389855aa5184ffa9a21651d1a4c03073129b180667c261ea30",
+      "source_directory": "code/EEG-GANet_S4"
+    },
+    "A05": {
+      "sha256": "8f49e3d7d362f62a6ce78915e9ce9f5a06310ca5e2e76f921b2ba6b3549e034b",
+      "source_directory": "code/EEG-GANet_S5"
+    },
+    "A06": {
+      "sha256": "d4a9daf4e758270f8c4994850a0a60bcd19044c57c5fdd3c5f7166e81fe92e2c",
+      "source_directory": "code/EEG-GANet_S6"
+    },
+    "A07": {
+      "sha256": "e41063faf9d760a66e425c7acb8213390965d9672388ae523390c684d610606d",
+      "source_directory": "code/EEG-GANet_S7"
+    },
+    "A08": {
+      "sha256": "369a0b4de3e5f697a8c2fdefb4d0f8227443a4e6217fa0f896f80cf7403e1e02",
+      "source_directory": "code/EEG-GANet_S8"
+    }
+  }
+}
